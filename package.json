@@ -1,16 +1,25 @@
 {
   "name": "web_server",
   "version": "1.0.0",
-  "description": "mock-server-api",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "index.js",
+    "start": "node index.js"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PoornimaMohabe/server_api.git"
+  },
   "author": "abc",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PoornimaMohabe/server_api/issues"
+  },
+  "homepage": "https://github.com/PoornimaMohabe/server_api#readme",
   "dependencies": {
-    "json-server": "^0.17.0"
+    "cors": "^2.8.5",
+    "json-serve": "^0.1.0",
+    "json-server": "^1.0.0-alpha.23"
   }
 }
